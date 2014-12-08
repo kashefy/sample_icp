@@ -1,10 +1,12 @@
+/** Originally from PCL's documentation pages.
+  * Link: http://pointclouds.org/documentation/tutorials/iterative_closest_point.php
+  */
 #include <iostream>
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 #include <pcl/registration/icp.h>
 
-int
- main (int argc, char** argv)
+int main (int argc, char** argv)
 {
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_in (new pcl::PointCloud<pcl::PointXYZ>);
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_out (new pcl::PointCloud<pcl::PointXYZ>);
