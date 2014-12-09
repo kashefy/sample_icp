@@ -2,7 +2,7 @@ language: cpp
 compiler: gcc
 before_install:
   - sudo apt-get update -qq
-  - sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+  - sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl -y
   - sudo apt-get update -qq
   - sudo apt-get install -y libpcl-all
 before_script:
