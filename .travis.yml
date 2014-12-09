@@ -10,3 +10,4 @@ before_script:
   - cd build
   - cmake ..
 script: make
+after_script: sample_icp
